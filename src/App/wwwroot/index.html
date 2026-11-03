@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An ASP.NET Core starter application running on Wodby.">
+    <title>ASP.NET Core on Wodby</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="status"><span aria-hidden="true"></span> Deployment healthy</p>
+        <p class="kicker">ASP.NET Core + Kestrel + Wodby</p>
+        <h1 id="page-title">Your ASP.NET Core app is running.</h1>
+        <p class="intro">
+          A minimal API with static files, health checks, forwarded headers
+          from Wodby's gateway, host filtering, and graceful shutdown.
+        </p>
+        <div class="actions">
+          <a class="primary" href="https://learn.microsoft.com/aspnet/core/">Build with ASP.NET Core</a>
+          <a href="https://wodby.com/docs/2.0/">Explore Wodby</a>
+        </div>
+      </section>
+
+      <section class="details" aria-labelledby="details-title">
+        <div>
+          <p class="number">01</p>
+          <h2 id="details-title">Runtime</h2>
+        </div>
+        <dl>
+          <div>
+            <dt>Framework</dt>
+            <dd id="framework">.NET</dd>
+          </div>
+          <div>
+            <dt>Environment</dt>
+            <dd id="environment">&ndash;</dd>
+          </div>
+          <div>
+            <dt>API example</dt>
+            <dd><a href="/api/status">/api/status</a></dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <span>Published with dotnet publish</span>
+      <a href="/healthz">Health check</a>
+    </footer>
+
+    <script src="/assets/status.js"></script>
+  </body>
+</html>

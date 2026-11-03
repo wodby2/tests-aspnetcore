@@ -1,0 +1,9 @@
+.idea/
+.vs/
+.vscode/
+*.user
+
+# .NET build and test output.
+bin/
+obj/
+TestResults/
