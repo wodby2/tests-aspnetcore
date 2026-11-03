@@ -26,7 +26,7 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.MapGet("/api/status", (IWebHostEnvironment environment) => new ApplicationStatus(
-    "edited",
+    "ok",
     RuntimeInformation.FrameworkDescription,
     environment.EnvironmentName));
 
